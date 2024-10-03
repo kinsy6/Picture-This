@@ -5,9 +5,11 @@ body {
   margin: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
+  max-width: 1600px;
 }
 
 .header {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -31,6 +33,7 @@ h4 {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 @media (min-width: 960px) {
